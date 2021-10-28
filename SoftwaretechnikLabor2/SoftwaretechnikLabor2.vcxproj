@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c98f6c85-a48a-431f-b1cb-133c025e40e6}</ProjectGuid>
-    <RootNamespace>SoftwaretechnikEikeSiemering</RootNamespace>
+    <ProjectGuid>{45152933-84ed-44da-ad12-311e0515f38b}</ProjectGuid>
+    <RootNamespace>SoftwaretechnikLabor2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>SoftwaretechnikLabor1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,14 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="customer.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="person.cpp" />
+    <ClCompile Include="..\SoftwaretechnikEikeSiemering\customer.cpp" />
+    <ClCompile Include="..\SoftwaretechnikEikeSiemering\main.cpp" />
+    <ClCompile Include="..\SoftwaretechnikEikeSiemering\person.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="customer.h" />
-    <ClInclude Include="defs.h" />
-    <ClInclude Include="person.h" />
+    <ClInclude Include="..\SoftwaretechnikEikeSiemering\customer.h" />
+    <ClInclude Include="..\SoftwaretechnikEikeSiemering\defs.h" />
+    <ClInclude Include="..\SoftwaretechnikEikeSiemering\person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
