@@ -22,6 +22,17 @@ public:
 	Person();
 	Person(string name, string surname, Date);
 
+	// Überladung des << Operators
+	friend ostream& operator << (ostream& os, Person aPerson)
+	{
+		cout << "Name: " << aPerson._name;
+		cout << " " << aPerson._surname;
+		cout << " DoB: " << aPerson._dob.day;
+		cout << "." << aPerson._dob.month;
+		cout << "." << aPerson._dob.year << endl;
+		return os;
+	}
+
 };
 
 

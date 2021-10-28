@@ -38,13 +38,6 @@ void main()
 void print(Customer aPerson)
 {
 	//prints out all the person's details
-	cout << "Name: " << aPerson.name();
-	cout << " " << aPerson.surname();
-	cout << " DoB: " << aPerson.dob().day;
-	cout << "." << aPerson.dob().month;
-	cout << "." << aPerson.dob().year << endl;
-	cout << aPerson.address().street << " " << aPerson.address().number << ", ";
-	cout << aPerson.address().postcode << " " << aPerson.address().city << ", ";
-	cout << aPerson.address().country << endl;
+	cout << aPerson;
 
 }
